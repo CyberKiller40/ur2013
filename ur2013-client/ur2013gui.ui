@@ -47,7 +47,7 @@
       <enum>QTabWidget::Rounded</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>5</number>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
@@ -123,7 +123,7 @@ Będą sie odsłaniać z czasem...</string>
        <item>
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Teraz by się przydało mieć co nie?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/ttravel.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Teraz by się przydało mieć co nie?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/t.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -151,7 +151,7 @@ Będą sie odsłaniać z czasem...</string>
        <item>
         <widget class="QLabel" name="label_6">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Może tego szukasz?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/cake.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Może tego szukasz?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/c.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="textFormat">
           <enum>Qt::AutoText</enum>
@@ -168,7 +168,7 @@ Będą sie odsłaniać z czasem...</string>
        <item>
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OK, bez ściemy, tu jest odpowiedź:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/rick.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OK, bez ściemy, tu jest odpowiedź:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/img/res/r.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
