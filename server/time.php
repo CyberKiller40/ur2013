@@ -1,3 +1,3 @@
 <?php
-print(time());
+print(date("H:i:s"));
 ?>
