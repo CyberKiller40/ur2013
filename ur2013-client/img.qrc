@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>res/ttravel.png</file>
+        <file>res/cake.png</file>
+        <file>res/rick.png</file>
+    </qresource>
+</RCC>

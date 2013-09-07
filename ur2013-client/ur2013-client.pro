@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += ur2013gui.h
 
 FORMS    += ur2013gui.ui
+
+RESOURCES += \
+    img.qrc
