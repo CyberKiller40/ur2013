@@ -24,14 +24,14 @@
     <enum>QLayout::SetFixedSize</enum>
    </property>
    <item>
-    <widget class="QLabel" name="timer">
+    <widget class="QLabel" name="timerlabel">
      <property name="font">
       <font>
        <pointsize>20</pointsize>
       </font>
      </property>
      <property name="text">
-      <string>TextLabel</string>
+      <string/>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -54,6 +54,13 @@
        <string>Hint 1</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="alabel_8">
+         <property name="text">
+          <string>   ---====---   Gratulacje! Znalazłeś ukryty 8 hint! Masz ciasteczko w nagrodę za swoje haxxorskie umiejętności otwierania binarek notepadem :-) - http://ur1.ca/fewp4 - PS. nie ma tu odpowiedzi :-P.   ---====---   </string>
+         </property>
+        </widget>
+       </item>
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
