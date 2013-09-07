@@ -1,3 +1,21 @@
+/*
+	ur2013-client - an app for my birthday in 2013
+	Copyright (C) 2013 Łukasz "Cyber Killer" Korpalski
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include "ur2013gui.h"
 #include "ui_ur2013gui.h"
 
@@ -29,7 +47,6 @@ void ur2013gui::replyFinished(QNetworkReply *reply) //odpowiedź z neta
 	QByteArray data=reply->readAll();
 	QString str(data);
 	nowtime = QTime::fromString(str);
-
 	//timer
 	timer = new QTimer();
 	InSeconds=nowtime.secsTo(finishtime);
@@ -50,7 +67,7 @@ void ur2013gui::setDisplay()
 	text=text.toUtf8().toBase64();
 	std::reverse(text.begin(),text.end());
 	if(InSeconds>0) ui->timerlabel->setText(text);
-	else ui->timerlabel->setText(trUtf8("Ciasto jest! (lub już było)"));
+	else ui->timerlabel->setText(trUtf8("Ciasto jest!\n(lub już było)"));
 	if(InSeconds<5400 && hint2show==false)
 	{
 		ui->hints->addTab(ui->tab_2,"Hint 2");
