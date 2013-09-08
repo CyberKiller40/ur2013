@@ -39,6 +39,15 @@ ur2013gui::ur2013gui(QWidget *parent) :
 	ui->label_5->setText(trUtf8(QByteArray::fromBase64("Q2Flc2FyIGNoY2UgcHJ6ZWthemHEhywgxbxlIHRvIHBvd3nFvGVqIHRvIG5pZSBqZXN0IHdwcm9zdCBiYXNlNjQuPGJyIC8+PGJyIC8+Li4uaSBwb3RyemVibnkgamVzdCBkb3N0xJlwIGRvIHNpZWNpLCBiZXogdGVnbyBsaWN6bmlrIG5pZSBkemlhxYJhIHBvcHJhd25pZS4=")));
 	ui->label_6->setText(trUtf8(QByteArray::fromBase64("PGh0bWw+PGhlYWQvPjxib2R5PjxwPk1vxbxlIHRlZ28gc3p1a2Fzej88L3A+PHA+PGltZyBzcmM9IjovaW1nL3Jlcy9jLnBuZyIvPjwvcD48L2JvZHk+PC9odG1sPg==")));
 	ui->label_7->setText(trUtf8(QByteArray::fromBase64("PGh0bWw+PGhlYWQvPjxib2R5PjxwPk9LLCBiZXogxZtjaWVteSwgdHUgamVzdCBvZHBvd2llZMW6OjwvcD48cD48aW1nIHNyYz0iOi9pbWcvcmVzL3IucG5nIi8+PC9wPjwvYm9keT48L2h0bWw+")));
+
+	finishtime = QTime(10,47); //godzina do której odlicza
+	hint2show = false;
+	hint3show = false;
+	hint4show = false;
+	hint5show = false;
+	hint6show = false;
+	hint7show = false;
+
 	//czas z netu
 	QNetworkAccessManager *manager = new QNetworkAccessManager(this);
 	connect(manager, SIGNAL(finished(QNetworkReply*)),this, SLOT(replyFinished(QNetworkReply*)));

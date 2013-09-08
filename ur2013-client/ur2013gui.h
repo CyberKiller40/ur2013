@@ -44,14 +44,14 @@ public:
 	QTimer* timer;
 	QTime* timeValue;
 	QTime nowtime;
-	QTime finishtime = QTime(10,47); //godzina do której odlicza
+	QTime finishtime;
 	int InSeconds;
-	bool hint2show = false;
-	bool hint3show = false;
-	bool hint4show = false;
-	bool hint5show = false;
-	bool hint6show = false;
-	bool hint7show = false;
+	bool hint2show;
+	bool hint3show;
+	bool hint4show;
+	bool hint5show;
+	bool hint6show;
+	bool hint7show;
 
 
 private:
