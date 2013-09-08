@@ -27,6 +27,8 @@
 #include <QTimer>
 #include <QTime>
 #include <algorithm>
+#include <string>
+
 
 namespace Ui {
 	class ur2013gui;
@@ -42,7 +44,7 @@ public:
 	QTimer* timer;
 	QTime* timeValue;
 	QTime nowtime;
-	QTime finishtime = QTime(10,26);
+	QTime finishtime = QTime(10,47); //godzina do której odlicza
 	int InSeconds;
 	bool hint2show = false;
 	bool hint3show = false;
